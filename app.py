@@ -77,7 +77,7 @@ def tobs():
 
     session.close()
 
-    tobs_list = list(np.ravel(station_temp))
+    # tobs_list = list(np.ravel(station_temp))
 
     return jsonify(tobs_list)
 

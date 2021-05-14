@@ -43,11 +43,11 @@ All of the analysis uses SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
     8. Find the last 12 months of temperature observation data for this station.
 
-## Create Climate App
+### Climate App
 
 After completing the initial analysis, a Flask API was designed based on the queries that were developed.
 
-* Flask was used to create the following routes.
+* Flask was used to create the following routes when ran locally.
 
 #### Routes
 

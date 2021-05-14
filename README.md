@@ -15,33 +15,31 @@ All of the analysis uses SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 ### Precipitation Analysis
 
-* Start by finding the most recent date in the data set.
-
-* Using the most recent date from the data set, the previous 12 months of precipitation data was retrieved by querying the 12 preceding months of data. 
+* Using the most recent date from the data set, the previous 12 months of precipitation data was retrieved by querying the data. 
 
 * The query results were loaded into a Pandas DataFrame with the date column set as the index.
 
-* The results were plotted and Pandas was used to print the summary statistics for the precipitation data.
+* The results were then plotted and Pandas was used to print the summary statistics for the precipitation data.
 
 ### Station Analysis
 
 * Queries were designed to: 
 
-    1. Calculate the total number of stations in the dataset.
+    * Calculate the total number of stations in the dataset.
 
-    2. Find the most active stations (i.e. which stations have the most rows?).
+    * Find the most active stations (i.e. which stations have the most rows?).
 
-    3. List the stations and observation counts in descending order.
+    * List the stations and observation counts in descending order.
 
-    4. Find which station id had the highest number of observations?
+    * Find which station id had the highest number of observations?
 
-    5. Using the most active station id, calculate the lowest, highest, and average temperature.
+    * Using the most active station id, calculate the lowest, highest, and average temperature.
 
-    6. Design a query to retrieve the last 12 months of temperature observation data (TOBS).
+    * Design a query to retrieve the last 12 months of temperature observation data (TOBS).
 
-    7. Filter by the station with the highest number of observations.
+    * Filter by the station with the highest number of observations.
 
-    8. Find the last 12 months of temperature observation data for this station.
+    * Find the last 12 months of temperature observation data for this station.
 
 ### Climate App
 

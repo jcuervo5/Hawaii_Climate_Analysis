@@ -78,4 +78,7 @@ After completing the initial analysis, a Flask API was designed based on the que
 
   * When given the start and the end date, calculates the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 
+![Precipitation](https://user-images.githubusercontent.com/75442215/125850180-83afd3ec-3a58-4605-8295-df9588887b08.png)
+![tobs](https://user-images.githubusercontent.com/75442215/125850183-f7794056-74a2-4aca-93f2-aaa7dae8d2f1.png)
+
 
